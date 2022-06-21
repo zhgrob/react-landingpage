@@ -1,0 +1,34 @@
+{
+  "homepage": "https://zhgrob/react-landingpage",
+  "name": "portfolio-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.12",
+    "@material-ui/icons": "^4.9.1",
+    "bootstrap": "^4.3.1",
+    "flat-carousel": "0.0.1",
+    "jquery": "^3.5.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
+    "react-image-gallery": "^1.0.7",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "0.9.5",
+    "reactstrap": "^8.4.1",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
